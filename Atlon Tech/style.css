@@ -14,8 +14,8 @@ header {
     background: black /* Atualizado */
     padding: 20px 0;
     text-align: center;
-    border-bottom: 4px solid #0069FF;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 4px rgba(255, 255, 255, 0.5);
+    box-shadow:  2px 4px;
     border-radius: 0 0 20px 20px;
 }
 
@@ -23,7 +23,7 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px rgba(3, 3, 3, 0.5);
     letter-spacing: 1px;
     color: white;
 }
@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(255, 255, 255);
+    color: #0069FF;
     text-decoration: none;
     padding: 10px 15px;
     border: 2px solid rgb(145, 139, 139);
@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 h2 {
-    color: #ffffff;
+    color: #0069FF;
 }
 
 p, ul {
@@ -100,7 +100,7 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px 0;
-    border-top: 4px solid #0069FF;
+    border-top: 4px solid #ffffff;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px 20px 0 0;
 }
