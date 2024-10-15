@@ -11,7 +11,7 @@ body {
 
 header {
     width: 100%;
-    background: #282828;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(50, 50, 50, 0.85)); /* Gradiente linear */
     padding: 20px 0;
     text-align: center;
     border-bottom: 4px solid rgba(255, 255, 255, 0.5);
@@ -35,7 +35,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 25px; /* Aumentado de 15px para 25px */
 }
 
 nav ul li a {
